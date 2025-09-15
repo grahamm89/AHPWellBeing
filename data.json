@@ -1,0 +1,191 @@
+{
+  "intro": "This check-in is for you. Your answers are private and not shared unless you choose to. The questions are designed to help you reflect on your health and wellbeing at work and at home. At the end, you\u2019ll get supportive tips and resources. Sharing your results is optional.",
+  "sections": {
+    "health_energy": {
+      "title": "Your Health & Energy",
+      "questions": [
+        {
+          "q": "I get enough rest and good-quality sleep most nights.",
+          "tip": "Aim for a consistent bedtime routine; keep devices out of the bedroom."
+        },
+        {
+          "q": "I eat balanced, nourishing meals regularly.",
+          "tip": "Prepare simple healthy meals in advance; add more fruit and veg."
+        },
+        {
+          "q": "I stay hydrated throughout the day.",
+          "tip": "Keep a water bottle nearby; set reminders if needed."
+        },
+        {
+          "q": "I am physically active in ways that support my health.",
+          "tip": "Build in short walks or stretches during the day."
+        },
+        {
+          "q": "I feel I have enough energy to manage my daily work.",
+          "tip": "Notice energy patterns; schedule demanding tasks when you feel most alert."
+        }
+      ]
+    },
+    "mood_resilience": {
+      "title": "Your Mood & Resilience",
+      "questions": [
+        {
+          "q": "Over the last two weeks, I have felt cheerful and in good spirits.",
+          "tip": "Note positive moments each day to boost mood."
+        },
+        {
+          "q": "Over the last two weeks, I have felt calm and relaxed.",
+          "tip": "Try short breathing or mindfulness breaks to reset during the day."
+        },
+        {
+          "q": "I can concentrate and stay engaged with tasks.",
+          "tip": "Use focus techniques (Pomodoro, task lists) and limit distractions."
+        },
+        {
+          "q": "I have healthy ways to cope when I feel stressed.",
+          "tip": "Keep a toolkit of coping strategies like exercise, talking, or hobbies."
+        },
+        {
+          "q": "I feel motivated and purposeful in my role.",
+          "tip": "Reconnect with why your work matters; set small achievable goals."
+        }
+      ]
+    },
+    "workload_balance": {
+      "title": "Your Workload & Balance",
+      "questions": [
+        {
+          "q": "I feel able to manage my workload without becoming overwhelmed.",
+          "tip": "Break tasks into steps; ask for prioritisation if deadlines clash."
+        },
+        {
+          "q": "I have some control over how I organise my work.",
+          "tip": "Plan your day where possible; discuss flexibility with your manager."
+        },
+        {
+          "q": "I receive enough support from colleagues or managers when needed.",
+          "tip": "Reach out early; use peer support and regular check-ins."
+        },
+        {
+          "q": "I usually feel recovered and refreshed after time away from work.",
+          "tip": "Protect time off; avoid checking work emails outside hours."
+        },
+        {
+          "q": "I feel positive and engaged about my job.",
+          "tip": "Celebrate small wins; notice what aspects of work energise you."
+        }
+      ]
+    },
+    "voice_team": {
+      "title": "Your Voice & Team Culture",
+      "questions": [
+        {
+          "q": "I feel safe to speak up about mistakes or problems without fear of negative consequences.",
+          "tip": "If you don\u2019t, consider raising this with HR or a trusted colleague."
+        },
+        {
+          "q": "My ideas and contributions are listened to and respected.",
+          "tip": "Share your ideas confidently; feedback should be valued."
+        },
+        {
+          "q": "I can ask for help without worrying it will be held against me.",
+          "tip": "Remember that needing support is normal; healthy teams help each other."
+        },
+        {
+          "q": "People in my team treat each other with respect.",
+          "tip": "Respectful communication helps everyone; model it yourself too."
+        },
+        {
+          "q": "I feel comfortable being myself at work.",
+          "tip": "Inclusive workplaces allow authenticity; seek support if you don\u2019t feel this."
+        }
+      ]
+    },
+    "work_life": {
+      "title": "Your Work\u2013Life Balance (Optional)",
+      "questions": [
+        {
+          "q": "I can set clear boundaries between work and personal time.",
+          "tip": "Log off at a set time; turn off notifications outside hours."
+        },
+        {
+          "q": "I take regular breaks during the workday, including lunch.",
+          "tip": "Step away from screens; a short walk or meal break helps recovery."
+        },
+        {
+          "q": "I can disconnect from work outside of working hours.",
+          "tip": "Create an end-of-day ritual; separate work devices from personal space."
+        }
+      ]
+    },
+    "growth_support": {
+      "title": "Your Growth & Support (Optional)",
+      "questions": [
+        {
+          "q": "I have the tools and resources I need to do my job well.",
+          "tip": "If not, raise resource gaps with your manager."
+        },
+        {
+          "q": "I have opportunities to learn and develop in my role.",
+          "tip": "Seek training, mentoring, or stretch projects for growth."
+        },
+        {
+          "q": "I feel recognised and appreciated for my contributions.",
+          "tip": "Share achievements with your team; ask for feedback where needed."
+        }
+      ]
+    }
+  },
+  "bands": {
+    "high": {
+      "label": "High wellbeing",
+      "range_pct": [
+        75,
+        100
+      ],
+      "advice": "You\u2019re maintaining positive habits. Keep them up and support others where you can."
+    },
+    "moderate": {
+      "label": "Moderate wellbeing",
+      "range_pct": [
+        50,
+        74
+      ],
+      "advice": "You\u2019re coping but could benefit from adjustments. Focus on the areas you scored lower."
+    },
+    "low": {
+      "label": "Low wellbeing",
+      "range_pct": [
+        25,
+        49
+      ],
+      "advice": "You may be experiencing signs of stress. Consider making small changes and use available support."
+    },
+    "very_low": {
+      "label": "Very low wellbeing",
+      "range_pct": [
+        0,
+        24
+      ],
+      "advice": "You may be at risk of stress or burnout. Please consider reaching out to support services or a trusted person."
+    }
+  },
+  "resources": [
+    {
+      "name": "NHS Every Mind Matters",
+      "url": "https://www.nhs.uk/every-mind-matters/"
+    },
+    {
+      "name": "Mind \u2013 Wellness Action Plans",
+      "url": "https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/wellness-action-plan-wap/"
+    },
+    {
+      "name": "HSE \u2013 Stress Management Standards",
+      "url": "https://www.hse.gov.uk/stress/standards/"
+    },
+    {
+      "name": "CIPD Wellbeing Resources",
+      "url": "https://www.cipd.org.uk/uk/knowledge/work/wellbeing/"
+    }
+  ]
+}
